@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    margin: 0;
+    font-style: italic;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+}
+.navbar ul li{
+    list-style: none;
+    margin-right: 5rem;
+    font-size: 25px;
+}
+.navbar ul li:hover{
+    list-style: none;
+    margin-right: 5rem;
+    font-size: 25px;
+    color: red;
+    transition: 1s;
+}
+.content{
+    display: flex;
+    margin: 4rem 3rem;
+}
+.left{
+    width: 50%;
+    padding: 1rem;
+    font-size: 20px;
+    text-align: justify;
+    font-style: italic;
+    font-weight: 200;
+}
+.right{
+    width: 50%;
+    padding: 1rem;
+    font-size: 20px;
+}
+.field{
+    width: 80%;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+.nii{
+    width: 80%;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+.botton{
+    background-color: black;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    border-radius: 20px;
+    width: 20%;
+    font-style: italic;
+    
+}
+.footer{
+    background-color: black;
+    color: white;
+    
+    font-style:italic
+
+}
+@media screen and (Max-width:667px) {
+    body{
+        background-color: rgb(184, 223, 241);       
+    }
+    .content{
+        display: flex;
+        margin: 4rem 3rem;
+        flex-direction: column-reverselshttps://github.com/SomyX5/m.git;
+    }
+    .left{
+        width: 100%;
+        padding: 1rem;
+        font-size: 20px;
+        text-align: justify;
+        font-style: italic;
+        font-weight: 200;
+    }
+    .right{
+        width: 100%;
+        padding: 1rem;
+        font-size: 20px;
+
+}
+
+
+
+
+
